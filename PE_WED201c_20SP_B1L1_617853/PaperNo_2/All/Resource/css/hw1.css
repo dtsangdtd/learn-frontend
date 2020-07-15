@@ -1,0 +1,56 @@
+header{
+  background-color: #048c5f;
+  text-align: center;
+}
+header h1 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  color: #d1880a;
+  font-size: 20px;
+}
+header nav a{
+  border: hidden 1px black;
+  background-color: #5aad80;
+  padding: 5px 35px 5px 35px;
+  margin: 30px;
+  font-size: 20px;
+  border-radius: 5px ;
+  display: inline-block;
+  font-weight: 15%;
+  text-decoration: none;
+  opacity: 0.9;
+  color: aqua;
+}
+.active{
+  background-color: #fae4d9;
+  color: #eda479;
+}
+main{
+  display: flex;
+}
+.top{
+  text-align: center;
+}
+img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  padding: 5px 0px 5px 0px;
+  
+}
+th{
+  background-color:#f07400 ;
+}
+#team td{
+  background-color: #f59c49;
+}
+#myform td{
+  background-color: #f5ea49;
+}
+table{
+  display: inline-table;
+  padding-left: 10%;
+}
+#team td:hover{
+ background-color: #f5ea49;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sample</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="inputName">Nhap Ten:</label>
+        <input type="text" id="inputName" />
+      </div>
+      <div>
+        <label for="inputAge">Nhap Tuoi:</label>
+        <input type="text" id="inputAge" />
+      </div>
+      <div>
+        <label for="inputAddress">Nhap Dia Chi:</label>
+        <input type="text" id="inputAddress" />
+      </div>
+
+      <button type="button" id="add" onclick="addUserData()">Add New User</button>
+    </form>
+
+    <br />
+
+    <table id="users">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <br/>
+
+    <p class="text"></p>
+    <p class="text"></p>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

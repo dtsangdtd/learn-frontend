@@ -1,0 +1,88 @@
+.my-container{
+  width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-form{
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.input-group{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.action-group{
+  display: flex;
+}
+
+.action-group>button{
+  width: 100px;
+  margin-right: 10px;
+}
+
+.my-input{
+  width: 100%;
+  display: block;
+}
+
+.my-input>label {
+  width: 20%;
+}
+
+.my-input>input {
+  width: 70%;
+}
+
+
+.jumbotron {
+  margin-bottom: 20px;
+}
+
+table{
+  box-shadow: gray;
+  width: 100%;
+
+}
+
+.head{
+  text-transform: uppercase;
+  padding: 5px;
+  margin: auto;
+}
+
+.input{
+  position: relative;
+  box-shadow: #64b5f6;
+
+
+}
+button.btn.btn-success:hover{
+  background-color: aqua;
+  color: aliceblue;
+}
+.head3{
+  text-align: center ;
+  margin-top: -30px;
+}
+.button.btn.btn-primary.btn-sm{
+  flex: none;
+  
+}
+#userhotel, td, th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#userhotel, th{
+   padding-top: 12px;
+   padding-bottom: 12px;
+   color: #ddd;
+background-color: #64b5f6;
+}
+#userhotel, tr:hover{
+  background-color: #a8d8ff;
+}

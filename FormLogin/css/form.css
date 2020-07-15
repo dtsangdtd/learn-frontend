@@ -1,0 +1,107 @@
+/* form[name = "login"]{
+
+} */
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-login {
+    background-color: #3b5998;
+}
+
+.form-register {
+    background-color: rgb(239, 241, 246);
+}
+
+.form-field {
+    float: left;
+    width: 30%;
+    padding: 10px 10px;
+    color: white;
+}
+
+.form-field a {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.form-field input[type="text"],
+.form-field input[type="password"] {
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.btn-Submit {
+    background-color: #3b5998;
+    color: white;
+    border: 1px solid;
+    box-shadow: ;
+    padding: 4px 10px;
+    margin-top: 25px;
+}
+
+.form-field input[type="checkbox"] {
+    transform: translate(-5px);
+    /*giá trị đầu chỉnh tọa độ x giá trị sau transform theo tọa độ y*/
+}
+
+.btn-Submit:hover {
+    background-color: #3058ad;
+    cursor: pointer;
+    /*chuyển chuột thành bàn tay*/
+}
+
+.form-register-title h1 {
+    /* block element đều có default margin nên phải set lại margin của nó*/
+    margin: 0;
+}
+
+.form-register-title p {
+    margin: 5px 0;
+}
+
+.form-register {
+    margin: 20px;
+}
+
+.form-register-title {
+    border-bottom: 1.5px solid gray;
+    margin-bottom: 20px;
+}
+
+.formRegister-filed label {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+}
+
+.formRegister-filed input[type="text"],
+.formRegister-filed input[type="number"] {
+    width: 70%;
+    height: 30px;
+}
+
+.formRegister-filed {
+    margin-bottom: 10px;
+}
+
+.formRegister-filed textarea {
+    /* set cứng text area để bằng vs txt filed khác*/
+    width: 70%;
+}
+
+.formRG-Hobbies label {
+    vertical-align: top;
+    /*
+    vertical riêng table dùng để căn chỉnh thuộc tính theo chiều dọc  
+    set lable sở thích lên top bằng vs textarea*/
+}

@@ -1,0 +1,10 @@
+
+"git status" : update project's current status
+
+"git add ." : accept all changes
+
+"git add 'index.html'" : only accept the changes in file 'index.html'
+
+"git commit -m "there is a update message"" : commit the changes with given message
+
+"git push" : push the commit from local machine to the Internet (cloud repository)
